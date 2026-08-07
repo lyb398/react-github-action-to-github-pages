@@ -33,6 +33,7 @@ jobs:
       - name: Set up Node
         uses: pnpm/setup@v2.0.0 # v7
         with:
+          version: '9'
           node-version: lts/*
           cache: true
       - name: Install dependencies
